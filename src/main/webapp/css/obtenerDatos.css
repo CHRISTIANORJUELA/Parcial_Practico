@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+    background-color: #0e429f;
+}
+
+
+
+btn{
+    border-color: transparent;
+    outline: none;
+}
+
+.div-main-information{
+    background-color: royalblue;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.div-send-finalPage{
+    position: absolute;
+    top: 5px;
+    left: 15px;
+}

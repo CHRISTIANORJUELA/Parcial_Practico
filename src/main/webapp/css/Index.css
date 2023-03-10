@@ -1,0 +1,114 @@
+*{
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px 50px 0px;
+    flex-direction: column;
+    font-family: Arial;
+    background-color: #0359a3;
+    backdrop-filter: blur(200px);
+}
+
+
+
+.div-general{
+    display: flex;
+}
+.div-parte1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("../images/fondo2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px;
+}
+
+.div-title{
+
+}
+.div-general-diamont{
+    display: flex;
+    justify-content: center;
+}
+
+.img-diamont{
+    height: 250px;
+    width: 250px;
+    text-align: center;
+}
+
+
+
+div-form{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+form{
+    background-color: whitesmoke;
+    width: 400px;
+    padding: 40px 40px 20px 40px;
+    width: max-content;
+    height: max-content;
+    outline: none;
+    border-color: transparent;
+}
+
+.div-1{
+    height: 80px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inputs{
+    border-radius: 10px;
+    height: 25px;
+    border-color: transparent;
+    outline: none;
+    background-color: #dbd9d3;
+}
+
+.selects{
+    border-radius: 10px;
+    height: 25px;
+    border-color: transparent;
+    outline: none;
+    background-color: #dbd9d3;
+}
+
+.labels{
+    margin-bottom: 0px;
+    font-size: 15px;
+}
+
+option:hover{
+    background-color: #077db0;
+}
+
+.btn{
+    border-radius: 5px;
+    border-color: transparent;
+    outline: none;
+    background-color: #037a9e;
+    height: 30px;
+}
+
+
+.div-wrongs{
+    background-color: #d3cfcf;
+    width: 80%;
+    height: max-content;
+    width: max-content;
+    border-radius: 30px;
+    margin-top: 20px ;
+    padding: 20px;
+}
+
